@@ -14,16 +14,47 @@
   h2{
     font-family: "Verdana" 100pt
     }
+  nav{
+    float: left;
+    width: 7em;
+    background: green;
+    }
+    nav ul {
+     margin: 0;
+     padding: 0;
+     width: 7em;
+     background: white;
+     border: 1px solid;
+    }
+    nav li {
+     position: relative;
+     list-style: none;
+     margin: 0;
+     border-bottom: 1px solid #CCC;
+    }
+    nav li a {
+    display: block;
+    padding: 0.25em 0 0.25em 0.5em;
+    text-decoration: none;
+    }
+    nav li:hover {
+    background: #EBB;
+    }
   </style>
 </html>
 <html>
   <body bgcolor=White> 
   <h1> Aria's front page for comics!</h1>
-    <h2>My favorite comic is:</h2>
+  <h2>My favorite comic is:</h2>
     <img src="https://i.annihil.us/u/prod/marvel/i/mg/f/a0/568aa87faf2ae/portrait_incredible.jpg">
-    <h2><p>Summary: Defines what makes The Vision and his family human, <br />as they are androids and strive to be more human and struggle with human emotions. <br />An unsetting tale of murder and what means more than family than family itself.</p></h2>
+  <h2><p>Summary: Defines what makes The Vision and his family human, <br />as they are androids and strive to be more human and struggle with human emotions. <br />An unsetting tale of murder and what means more than family than family itself.</p></h2>
     <p><strong>Read the story here: <br /><a href="http://marvel.com/comics/series/20897/vision_2015_-_present"><img src="https://logorealm.com/wp-content/uploads/2016/07/Marvel-Logo.png" height="60" width="180"></a></strong></p>
-    <a href= "comic.html">see the best of 2017!</a>
-<html>
-  <p><a href="vision.html"> See why Vision is the best superhero!</a></p>
+<html>  
+  <h1> More options here!</h1>
+<nav>
+  <ul class='level1'>
+    <li><a href= "comic.html">See the best of 2017!</a></li>
+    <li><a href="vision.html"> See why Vision is the best superhero!</a></li>
+  </ul>
+  </nav>
 </html>
