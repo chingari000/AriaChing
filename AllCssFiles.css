@@ -1,0 +1,51 @@
+<html>
+  <head>
+  <style>
+      body {
+  background-image: url("visionandwanda.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 1430px 680px;
+  }
+  h1{
+    font-family: Verdana, Geneva, sans-serif; 
+    font-size: 60px;
+    color: crimson;
+    }
+  h2{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    }
+  h3{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    }
+    nav{
+    float: left;
+    width: 7em;
+    background: yellow;
+    }
+    nav ul {
+     margin: 0;
+     padding: 0;
+     width: 14em;
+     background: yellow;
+     border: 4px solid;
+    }
+    nav li {
+     position: relative;
+     list-style: none;
+     margin: 0;
+     border-bottom: 2px solid #CCC;
+    }
+    nav li a {
+    display: block;
+    padding: 0.25em 0 0.25em 0.5em;
+    text-decoration: none;
+    }
+    nav li:hover {
+    background: crimson;
+    }
+    </style>
+  </head>
+</html>
